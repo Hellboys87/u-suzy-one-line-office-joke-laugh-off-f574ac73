@@ -2,7 +2,7 @@ import { mkdirSync, writeFileSync } from "node:fs";
 import { join } from "node:path";
 
 const JOKE =
-  "My daily standup update is always 'no blockers,' which is a lie, because standup is the blocker.";
+  "Every standup I say 'no blockers' — a lie, because standup is the blocker.";
 
 const outputDir = process.env.MAKEFUN_OUTPUT_DIR || "/output";
 mkdirSync(outputDir, { recursive: true });
